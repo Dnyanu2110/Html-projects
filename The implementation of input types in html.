@@ -1,0 +1,66 @@
+<!DOCTYPE>
+<HTML>
+<HEAD>
+<BODY>
+<lable>password: <input type="password"  maxlength="6"/></lable> 
+<form>  
+<p>
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label>
+  </p>
+<p>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label></br> 
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label></br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label> 
+</p>
+<p>
+  <select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+</p>
+<p>
+<input list="browsers">
+<datalist id="browsers">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Google Chrome">
+  <option value="Opera"> 
+ <option value="Safari">
+</datalist> 
+</p>
+<p>
+<input type="button" onclick="alert('Hello World!')" value="Click Me!"> 
+</p>
+<input type="color" id="favcolor" name="favcolor" value="green">
+<h1 style=“text-align: center; font-weight:bold; color: blue”> Styling with CSS! </h1>
+
+<p style="font-size: 10pt; color: red; font-weight: bold; font-family: Arial, Helvetica, sans-serif“ >
+               Write whatever you want here </p>
+<p class="right"> This paragraph will be right-aligned, italic, and red. </p>
+	<p class=“blue"> This paragraph will be center-aligned and blue. </p>
+<p><span class="foo">This text is rendered as foo-style</span> and this is not.  </p>
+
+	<div class="foo"> <p>The "foo" style will be applied to this text, and to <a href="page.html">this text</a> as well. </div> 
+<style> 
+	body { color:black; 
+		background-color:#a0a0a0; 
+		scrollbar-face-color:#903030; 
+		scrollbar-arrow-color:#FFFFFF; 
+		scrollbar-track-color:#C0B0B0; 	
+		scrollbar-shadow-color:rgb(0,0,0)} 
+</style> 
+<input type="reset">
+</form>
+</BODY>
+</HEAD>
+</HTML>
