@@ -1,0 +1,23 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <body>
+            <label for="MLIST">MENU LIST:</label>
+            <Ol start="101">
+                <li>COFFEE</li>
+                <li>TEA</li>
+                <li>COLD DRINK</li>
+            </ol>
+            <label>PRICE </label>
+                <ul TYPE="CIRLE">
+                    <li>10</li>
+                    <li>20</li>
+                    <li>3O</li>
+                </ul>
+                <input type="password" placeholder="Enter your pasword" style="background-color: grey; font-size: large" maxlength="10" required>
+                <input type="submit" style="color: red;">
+                <input type="reset">
+           
+        </body>
+    </head>
+</html>
