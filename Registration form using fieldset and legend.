@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title> Sample form</title>
+</head>
+<body>
+<form>
+<fieldset><legend>REGISTRATION FORM</legend>
+<p>
+<lable>Username:<input type="text"/></lable>
+</p>
+<p>
+<lable>Set your password:<input type="password"/></lable>
+</p>
+<p>
+<lable>Confirm your password:<input type="password"/></lable>
+</p>
+<p>
+<lable>Addrress:<input type="text"/></lable>
+</p>
+<p>
+<lable>Contact number:<input type="number" id="quantity" name="quantity" min="1" max="100"/></lable>
+</p>
+<p>
+<lable>Gender</lable>
+<input type="radio"name="Gender"value="male">male
+<input type="radio"name="Gender"value="female"/>female
+</p>
+<p>
+Choose your subjects:<br>
+<li><input type="checkbox"name"subjects"value="Marathi"/>Marathi</li>
+<li><input type="checkbox"name"city"value="Hindi"/>Hindi</li>
+<li><input type="checkbox"name"city"value="English"/>English</li>
+<li><input type="checkbox"name"city"value="Tamil"/>Tamil</li>
+</p>
+<p>
+Choose your city;<br>
+<select id="city"name="city">
+<option value="Amalner"/>Amalner</option>
+<option value="Jalgaon"/>Jalgaon</option>
+<option value="Dhule"/>Dhule</option>
+<option value="Nashik"/>Nashik</option>
+</select>
+</p>
+<p>
+<input type="submit" name="submit" value="submit"/>
+</p>
+
+</fieldset>
+</form>
+</body>
+</html>
